@@ -1,0 +1,9 @@
+@import './variables';
+
+body {
+  @apply font-sans select-none bg-[#fff1e4];
+}
+
+a, button {
+  @apply transition duration-300 focus:outline-none text-secondary hover:text-paimary;
+}
